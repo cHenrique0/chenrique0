@@ -7,13 +7,13 @@ Lover of (Industrial and Home) Automation and Embedded Systems.
 
 <h3>About me</h3>
 
-- 🏠: I’m from Brazil.
-- 💻: I'm beginner Web Developer!
-- 👨‍🎓: I'm a undergraduate from <a href="https://portalpadrao.ufma.br/site">_**UFMA - Universidade Federal do Maranhão**_</a>
-- 📚: I’m currently studying <a href="http://www.ecp.ufma.br/">_**Computer Engineering**</a>_.
-- 💬: I speak Portuguese and I know a little English and Spanish language.
-- 🏁 2022 Goals: create new projects, find a job and complete my graduation.
-- 🔎 You can find me on:
+🏠: I’m from Brazil. <br>
+💻: I'm beginner Web Developer! <br>
+👨‍🎓: I'm a undergraduate from <a href="https://portalpadrao.ufma.br/site">_**UFMA - Universidade Federal do Maranhão**_</a> <br>
+📚: I’m currently studying <a href="http://www.ecp.ufma.br/">_**Computer Engineering**_</a>. <br>
+💬: I speak Portuguese and I know a little English and Spanish language. <br>
+🏁 2022 Goals: create new projects, find a job and complete my graduation. <br>
+🔎 You can find me on: <br>
 
 [![Github](https://img.shields.io/badge/-Github-8257e6?style=flat-square&logo=Github&logoColor=white)](https://github.com/cHenrique0)&nbsp;
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-8257e6?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/claudio-henrique-20/)&nbsp;
@@ -24,7 +24,7 @@ Lover of (Industrial and Home) Automation and Embedded Systems.
 
 <h3>Technologies and tools</h3>
 
-- I have knowledge:
+🔸 I have knowledge:
 
 ![Python](https://img.shields.io/badge/-Python-8257e6?style=flat-square&logo=python&logoColor=white)&nbsp;
 ![C C++](https://img.shields.io/badge/-C%2FC++-8257e6?style=flat-square&logo=cplusplus&logoColor=white)&nbsp;
@@ -36,7 +36,7 @@ Lover of (Industrial and Home) Automation and Embedded Systems.
 ![Ladder](https://img.shields.io/badge/-Ladder-8257e6?style=flat-square&logo=ladderlogic&logoColor=white)&nbsp;
 ![Git](https://img.shields.io/badge/-Git-8257e6?style=flat-square&logo=git&logoColor=white)&nbsp;
 
-- I'm learning:
+🔸 I'm learning:
 
 ![C#](https://img.shields.io/badge/-C%23-8257e6?style=flat-square&logo=csharp)&nbsp;
 ![.NET](https://img.shields.io/badge/-.Net%20-8257e6?style=flat-square&logo=dotnet)&nbsp;
