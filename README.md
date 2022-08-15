@@ -39,6 +39,7 @@ Lover of (Industrial and Home) Automation and Embedded Systems.
 
 ![C#](https://img.shields.io/badge/-C%23-68217A?style=for-the-badge&logo=csharp)&nbsp;
 ![.NET](https://img.shields.io/badge/-.Net%20-512CD4?style=for-the-badge&logo=dotnet)&nbsp;
+![Docker](https://img.shields.io/badge/-Docker-white?style=for-the-badge&logo=Docker)&nbsp;
 ![JavaScript](https://img.shields.io/badge/-JavaScript-FCDC00?style=for-the-badge&logo=javascript&logoColor=black)&nbsp;
 ![Nodejs](https://img.shields.io/badge/-Nodejs-70A761?style=for-the-badge&logo=Node.js&logoColor=white)&nbsp;
 ![TypeScript](https://img.shields.io/badge/-TypeScript-blue?style=for-the-badge&logo=typescript&logoColor=white)&nbsp;
