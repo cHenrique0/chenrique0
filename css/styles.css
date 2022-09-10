@@ -25,12 +25,107 @@ body {
   padding: 0;
   min-height: 100%;
   max-width: 100%;
+  /* padding-bottom: 8rem; */
 }
 
 img {
   width: 100%;
   height: auto;
   display: block;
+}
+
+/* Navbar Styles */
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  line-height: 1rem;
+  overflow: hidden;
+  background-color: #FFF;
+  z-index: 100;
+  height: 7.75rem;
+}
+
+.logo,
+.nav-menu {
+  text-transform: uppercase;
+}
+
+.logo,
+.nav-item {
+  white-space: nowrap;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5rem;
+}
+
+.nav-item {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 33.3%;
+  text-align: center;
+}
+
+.social-nav-item {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 10%;
+  padding: 0 0.2rem;
+}
+
+.logo a,
+.nav-menu a {
+  display: block;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+}
+
+.logo a {
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin: 0.5rem auto;
+}
+
+.nav-menu a {
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  transition: all ease 0.1s;
+  padding: 0.5rem;
+  font-size: 0.875rem;
+}
+
+/* Top Navbar Styles */
+.top-nav {
+  background: none;
+  position: fixed;
+  top: 0;
+}
+
+/* Modern browsers */
+@supports (position: sticky) {
+  .top-nav {
+    position: sticky;
+    /* For Safari */
+    position: -webkit-sticky;
+  }
+}
+
+.top-nav .logo a,
+.top-nav .nav-menu a {
+  color: #FFF;
+}
+
+.top-nav .nav-menu a:hover {
+  color: #0b998f;
 }
 
 /* Header Styles */
@@ -44,6 +139,7 @@ img {
   align-items: start;
   height: 100%;
   width: 100%;
+  margin-top: -7.75rem;
 }
 
 .hero-image-box {
@@ -172,6 +268,7 @@ img {
 .about-text h1 {
   font-size: 2rem;
   line-height: 2rem;
+  margin: 1rem auto 0 auto;
 }
 
 .about-img img {
@@ -189,10 +286,36 @@ img {
   margin: 0 1rem 1rem 1rem;
 }
 
+.section-stop {
+  scroll-margin-top: 9rem;
+}
+
 /* Media Queries for Large Screens */
 @media (min-width: 600px) {
+  .nav-bar {
+    line-height: 1.5rem;
+    padding: 0 4rem;
+    height: 5rem;
+  }
+
+  .nav-menu {
+    padding: 0 1rem;
+  }
+
+  .nav-item {
+    flex: 1 1;
+  }
+
+  .top-nav {
+    width: 100%;
+  }
+
   .hero-image {
     background-image: url("../img/main_background_desktop.jpg");
+  }
+
+  .hero-box {
+    margin-top: -5rem;
   }
 
   .hero-heading {
@@ -218,15 +341,40 @@ img {
   .about-container {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+    margin: 2rem auto 0 auto;
   }
 
   .about-text p {
     font-size: 1.1rem;
     line-height: 1.5rem;
   }
+
+  .section-stop {
+    scroll-margin-top: 7rem;
+  }
 }
 
 @media (min-width: 920px) {
+  .nav-bar {
+    justify-content: space-between;
+    line-height: 1rem;
+    padding: 0 5rem;
+    height: 5rem;
+  }
+
+  .nav-menu {
+    width: auto;
+    justify-self: end;
+  }
+
+  .top-nav {
+    width: 100%;
+  }
+
+  .hero-box {
+    margin-top: -5rem;
+  }
+
   .hero-heading {
     font-size: 6rem;
     line-height: 6rem;
@@ -235,6 +383,10 @@ img {
   .portfolio-container,
   .about-container {
     max-width: 1200px;
+  }
+
+  .about-container {
+    margin: 2rem auto 0 auto;
   }
 
   .portfolio-container h1,
@@ -246,5 +398,9 @@ img {
   .about-text p {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .section-stop {
+    scroll-margin-top: 7.75rem;
   }
 }

@@ -1,27 +1,18 @@
-/* Changing the header background if it is a desktop screen or a mobile screen */
-/* const headerBg = document.querySelector(".hero-image");
+/* Changing the navbar background if scroll down */
 
-const bgDesktop = () => {
-  headerBg.src = "./img/main_background_desktop.jpg";
-};
+const body = document.body;
+const html = document.documentElement;
+const topNavBar = document.querySelector("#top-nav-bar");
 
-const bgMobile = () => {
-  headerBg.src = "./img/main_background_mobile.jpg";
-};
-
-const isMobile = () => {
-  if (window.screen.width < 600) {
-    return true;
+const scrollFunction = () => {
+  if (body.scrollTop > 150 || html.scrollTop > 150) {
+    topNavBar.style.backgroundColor = "#1d1e1f";
+    topNavBar.style.boxShadow = "-0.1rem 0.1rem 0.5rem 0.1rem #000";
+    return;
   }
-  return false;
+  topNavBar.style.background = "none";
+  topNavBar.style.boxShadow = "none";
+  return;
 };
 
-const changeBg = () => {
-  if (isMobile()) {
-    return bgMobile();
-  }
-  return bgDesktop();
-};
-
-changeBg();
- */
+window.onscroll = () => scrollFunction();
