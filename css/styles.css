@@ -127,6 +127,7 @@ img {
 .portfolio-container h1 {
   font-size: 2rem;
   line-height: 2rem;
+  padding: 0 1rem;
 }
 
 .portfolio-gallery {
@@ -156,6 +157,38 @@ img {
   transform: scale(1.5);
 }
 
+/* About Styles */
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 1rem auto 0 auto;
+}
+
+.about-text {
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.about-text h1 {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.about-img img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-social {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.about-social a {
+  text-decoration: none;
+  margin: 0 1rem 1rem 1rem;
+}
+
 /* Media Queries for Large Screens */
 @media (min-width: 600px) {
   .hero-image {
@@ -176,9 +209,20 @@ img {
     padding: 2rem;
   }
 
-  .portfolio-container h1 {
+  .portfolio-container h1,
+  .about-text h1 {
     font-size: 3rem;
     line-height: 3rem;
+  }
+
+  .about-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .about-text p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -188,12 +232,19 @@ img {
     line-height: 6rem;
   }
 
-  .portfolio-container {
-    max-width: 1400px;
+  .portfolio-container,
+  .about-container {
+    max-width: 1200px;
   }
 
-  .portfolio-container h1 {
+  .portfolio-container h1,
+  .about-text h1 {
     font-size: 4rem;
     line-height: 4rem;
+  }
+
+  .about-text p {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
