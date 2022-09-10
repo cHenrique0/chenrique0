@@ -1,5 +1,5 @@
 /* Changing the header background if it is a desktop screen or a mobile screen */
-const headerBg = document.querySelector(".hero-image");
+/* const headerBg = document.querySelector(".hero-image");
 
 const bgDesktop = () => {
   headerBg.src = "./img/main_background_desktop.jpg";
@@ -24,3 +24,4 @@ const changeBg = () => {
 };
 
 changeBg();
+ */

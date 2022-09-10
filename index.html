@@ -11,16 +11,12 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
-    <!-- LightBox CSS -->
+    <!-- CDN LightBox CSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"
     />
-    <!-- LightBox JS -->
-    <script
-      src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"
-      defer
-    ></script>
+
     <!-- My Custom CSS -->
     <link rel="stylesheet" href="./css/styles.css" />
     <!-- My JS scripts -->
@@ -32,23 +28,107 @@
     <!-- Begin Header -->
     <header class="hero-box">
       <section class="hero-image-box">
-        <img
-          class="hero-image"
-          src="./img/main_background_desktop.jpg"
-          alt=""
-        />
+        <div class="hero-image"></div>
       </section>
       <section class="hero-text-box">
         <h1 class="hero-heading">My Portfolio</h1>
         <p class="hero-text">Some text</p>
+        <p>
+          <a href="#portfolio">
+            <button type="button" class="hero-button">View Portfolio</button>
+          </a>
+        </p>
       </section>
     </header>
     <!-- End Header -->
 
     <!-- Begin Portfolio -->
+    <main class="portfolio-container" id="portfolio">
+      <h1>Portfolio</h1>
+      <section class="portfolio-gallery">
+        <div class="gallery-item">
+          <a
+            href="./img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
+            class="glightbox"
+            data-glightbox="title: Title for image; description: .custom-desc1; descPosition: right"
+          >
+            <img
+              src="./img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
+              alt="some image"
+              class="gallery-img"
+            />
+          </a>
+        </div>
+        <div class="glightbox-desc custom-desc1">
+          <p>Custom description 1 testing</p>
+          <a href="https://www.google.com" target="_blank">link testing</a>
+        </div>
+
+        <div class="gallery-item">
+          <a
+            href="./img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
+            class="glightbox"
+            data-glightbox="title: Title for image; description: .custom-desc2; descPosition: right"
+          >
+            <img
+              src="./img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
+              alt="some image"
+              class="gallery-img"
+            />
+          </a>
+        </div>
+        <div class="glightbox-desc custom-desc2">
+          <p>Custom description 2 testing</p>
+          <a href="https://www.google.com" target="_blank">link testing</a>
+        </div>
+
+        <div class="gallery-item">
+          <a
+            href="./img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
+            class="glightbox"
+            data-glightbox="title: Title for image; description: .custom-desc3; descPosition: right"
+          >
+            <img
+              src="./img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
+              alt="some image"
+              class="gallery-img"
+            />
+          </a>
+        </div>
+        <div class="glightbox-desc custom-desc3">
+          <p>Custom description 3 testing</p>
+          <a href="https://www.google.com" target="_blank">link testing</a>
+        </div>
+
+        <div class="gallery-item">
+          <a
+            href="./img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
+            class="glightbox"
+            data-glightbox="title: Title for image; description: .custom-desc4; descPosition: right"
+          >
+            <img
+              src="./img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
+              alt="some image"
+              class="gallery-img"
+            />
+          </a>
+        </div>
+        <div class="glightbox-desc custom-desc4">
+          <p>Custom description 4 testing</p>
+          <a href="https://www.google.com" target="_blank">link testing</a>
+        </div>
+      </section>
+    </main>
     <!-- End Portfolio -->
 
     <!-- Begin Footer -->
     <!-- End Footer -->
+
+    <!-- CDN GLightBox JS -->
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <!-- JS for GLightBox -->
+    <script type="text/javascript">
+      const lightbox = GLightbox({ loop: true });
+    </script>
   </body>
 </html>
