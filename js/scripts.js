@@ -5,7 +5,7 @@ const html = document.documentElement;
 const topNavBar = document.querySelector("#top-nav-bar");
 
 const scrollFunction = () => {
-  if (body.scrollTop > 150 || html.scrollTop > 150) {
+  if (body.scrollTop > 50 || html.scrollTop > 50) {
     topNavBar.style.backgroundColor = "#1d1e1f";
     topNavBar.style.boxShadow = "-0.1rem 0.1rem 0.5rem 0.1rem #000";
     return;
