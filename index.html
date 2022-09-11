@@ -29,17 +29,57 @@
 
     <title>Home - Claudio Henrique</title>
   </head>
-  <body>
-    <!-- Begin Top Nav -->
-    <nav class="nav-bar top-nav" id="top-nav-bar">
+  <body id="home">
+    <!-- Begin Top Navbar -->
+    <nav id="nav-top" class="nav-bar nav-top">
       <h1 class="logo">
         <a href="./index.html">
-          <i class="bi bi-code"></i>
-          Claudio Henrique
+          <i class="bi bi-code-slash"></i>
+          C.H.
         </a>
       </h1>
-
-      <ul class="nav-menu">
+      <div class="mobile-menu">
+        <div class="line-1"></div>
+        <div class="line-2"></div>
+        <div class="line-3"></div>
+      </div>
+      <ul class="nav-mobile">
+        <div>
+          <li class="nav-item">
+            <a href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about">About me</a>
+          </li>
+          <div id="social-media">
+            <li class="nav-item social-nav-item">
+              <a
+                href="https://github.com/chenrique0"
+                target="_blank"
+                aria-label="Link to Github"
+              >
+                <i class="bi bi-github" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="nav-item social-nav-item">
+              <a
+                href="https://linkedin.com/in/claudio-henrique-20"
+                target="_blank"
+                aria-label="Link to Linkedin"
+              >
+                <i class="bi bi-linkedin" aria-hidden="true"></i>
+              </a>
+            </li>
+          </div>
+        </div>
+      </ul>
+      <ul class="nav-desktop">
+        <li class="nav-item">
+          <a href="#home">Home</a>
+        </li>
         <li class="nav-item">
           <a href="#projects">Projects</a>
         </li>
@@ -66,29 +106,26 @@
         </li>
       </ul>
     </nav>
-    <!-- End Top Nav -->
+    <!-- End Top Navbar -->
 
     <!-- Begin Header -->
-    <header class="hero-box">
-      <section class="hero-image-box">
-        <div class="hero-image"></div>
-      </section>
+    <header class="hero-box hero-image">
       <section class="hero-text-box">
-        <h1 class="hero-heading">My Portfolio</h1>
+        <h1 class="hero-heading">My Projects</h1>
         <p class="hero-text">Some text</p>
         <p>
           <a href="#projects">
-            <button type="button" class="hero-button">View Portfolio</button>
+            <button type="button" class="hero-button">View Projects</button>
           </a>
         </p>
       </section>
     </header>
     <!-- End Header -->
 
-    <!-- Begin Portfolio -->
-    <main class="portfolio-container section-stop" id="projects">
-      <h1>Portfolio</h1>
-      <section class="portfolio-gallery">
+    <main id="projects" class="projects-container section-stop">
+      <!-- Begin Projects -->
+      <h1>Projects</h1>
+      <section class="projects-gallery">
         <div class="gallery-item">
           <a
             href="./img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
@@ -142,82 +179,143 @@
           <p>Custom description 3 testing</p>
           <a href="https://www.google.com" target="_blank">link testing</a>
         </div>
-      </section>
-    </main>
-    <!-- End Portfolio -->
 
-    <!-- Begin About -->
-    <section class="about-container section-stop" id="about">
-      <section class="about-text">
-        <h1>About</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-          distinctio perferendis soluta consectetur inventore quisquam enim
-          tempora, ea architecto dolores, vitae voluptas voluptates
-          reprehenderit veniam sint ullam possimus, illo qui!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic aliquam
-          vero dolores illo eveniet. Quidem quis beatae non necessitatibus
-          accusantium, corrupti minima. Deleniti saepe doloribus nesciunt ex
-          atque natus labore?
-        </p>
-        <p><a href="mailto:email@example.com">Email me</a> email@example.com</p>
-        <div class="about-social">
+        <div class="gallery-item">
           <a
-            href="https://github.com/chenrique0"
-            target="_blank"
-            aria-label="Link to Github"
+            href="./img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
+            class="glightbox"
+            data-glightbox="title: Title for image; description: .custom-desc4; descPosition: right"
           >
-            <i class="bi bi-github" aria-hidden="true"></i>
-          </a>
-          <a
-            href="https://linkedin.com/in/claudio-henrique-20"
-            target="_blank"
-            aria-label="Link to Linkedin"
-          >
-            <i class="bi bi-linkedin" aria-hidden="true"></i>
-          </a>
-          <a
-            href="https://twitter.com/c_henrique20"
-            target="_blank"
-            aria-label="Link to Twitter"
-          >
-            <i class="bi bi-twitter" aria-hidden="true"></i>
-          </a>
-          <a
-            href="https://instagram.com/7_chenrique"
-            target="_blank"
-            aria-label="Link to Instagram"
-          >
-            <i class="bi bi-instagram" aria-hidden="true"></i>
-          </a>
-          <a
-            href="https://facebook.com/c.henrique20"
-            target="_blank"
-            aria-label="Link to Facebook"
-          >
-            <i class="bi bi-facebook" aria-hidden="true"></i>
+            <img
+              src="./img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
+              alt="some image"
+              class="gallery-img"
+            />
           </a>
         </div>
+        <div class="glightbox-desc custom-desc4">
+          <p>Custom description 4 testing</p>
+          <a href="https://www.google.com" target="_blank">link testing</a>
+        </div>
       </section>
-      <section class="about-img">
-        <img src="img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg" alt="" />
+      <!-- End Projects -->
+
+      <!-- Begin About -->
+      <section id="about" class="about-container section-stop">
+        <section class="about-text">
+          <h1>About</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            distinctio perferendis soluta consectetur inventore quisquam enim
+            tempora, ea architecto dolores, vitae voluptas voluptates
+            reprehenderit veniam sint ullam possimus, illo qui!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic
+            aliquam vero dolores illo eveniet. Quidem quis beatae non
+            necessitatibus accusantium, corrupti minima. Deleniti saepe
+            doloribus nesciunt ex atque natus labore?
+          </p>
+        </section>
+        <section class="about-social">
+          <h2>You can find me on</h2>
+          <p id="email">
+            <a href="mailto:claudio.alexandre@discente.ufma.br">
+              <i class="bi bi-envelope-fill"></i>
+              claudio.alexandre@discente.ufma.br
+            </a>
+          </p>
+          <div class="social-media">
+            <a
+              href="https://github.com/chenrique0"
+              target="_blank"
+              aria-label="Link to Github"
+            >
+              <i class="bi bi-github" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://linkedin.com/in/claudio-henrique-20"
+              target="_blank"
+              aria-label="Link to Linkedin"
+            >
+              <i class="bi bi-linkedin" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://twitter.com/c_henrique20"
+              target="_blank"
+              aria-label="Link to Twitter"
+            >
+              <i class="bi bi-twitter" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://instagram.com/7_chenrique"
+              target="_blank"
+              aria-label="Link to Instagram"
+            >
+              <i class="bi bi-instagram" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://facebook.com/c.henrique20"
+              target="_blank"
+              aria-label="Link to Facebook"
+            >
+              <i class="bi bi-facebook" aria-hidden="true"></i>
+            </a>
+          </div>
+        </section>
       </section>
-    </section>
-    <!-- End About -->
+      <!-- End About -->
+    </main>
 
     <!-- Begin Footer -->
     <footer>
-      <nav class="nav-bar">
+      <nav id="nav-bar-bottom" class="nav-bar">
         <h1 class="logo">
           <a href="./index.html">
-            <i class="bi bi-code"></i>
-            Claudio Henrique
+            <i class="bi bi-code-slash"></i>
+            C.H.
           </a>
         </h1>
-
-        <ul class="nav-menu">
+        <div class="mobile-menu">
+          <div class="line-1"></div>
+          <div class="line-2"></div>
+          <div class="line-3"></div>
+        </div>
+        <ul class="nav-mobile">
+          <div>
+            <li class="nav-item">
+              <a href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about">About me</a>
+            </li>
+            <li class="nav-item social-nav-item">
+              <a
+                href="https://github.com/chenrique0"
+                target="_blank"
+                aria-label="Link to Github"
+              >
+                <i class="bi bi-github" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="nav-item social-nav-item">
+              <a
+                href="https://linkedin.com/in/claudio-henrique-20"
+                target="_blank"
+                aria-label="Link to Linkedin"
+              >
+                <i class="bi bi-linkedin" aria-hidden="true"></i>
+              </a>
+            </li>
+          </div>
+        </ul>
+        <ul class="nav-desktop">
+          <li class="nav-item">
+            <a href="#home">Home</a>
+          </li>
           <li class="nav-item">
             <a href="#projects">Projects</a>
           </li>
