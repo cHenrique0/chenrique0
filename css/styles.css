@@ -82,8 +82,17 @@ img {
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
 }
 
-.nav-mobile div {
+.nav-mobile #nav-links {
   margin: 1rem auto;
+}
+
+.nav-mobile #social-media {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto;
+  border-top: 1px solid #FFF;
+  position: relative;
+  top: 40%;
 }
 
 .nav-mobile .nav-item {
@@ -91,12 +100,6 @@ img {
   letter-spacing: 3px;
   text-transform: uppercase;
   margin: 0.5rem 0;
-}
-
-.nav-mobile #social-media {
-  display: flex;
-  justify-content: space-between;
-  border-top: 1px solid #FFF;
 }
 
 .nav-mobile .nav-item a {
