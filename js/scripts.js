@@ -28,7 +28,10 @@ const animateLinks = () => {
     link.style.animation
       ? (link.style.animation = "")
       : (link.style.animation = `navLinksFade 0.5s ease forwards ${time}s`);
-    link.addEventListener("click", toggleMobileMenu);
+
+    if (link.getAttribute("id") !== "lang-menu") {
+      link.addEventListener("click", toggleMobileMenu);
+    }
   });
 };
 
@@ -41,3 +44,33 @@ const toggleMobileMenu = (event) => {
 if (mobileMenu) {
   mobileMenu.addEventListener("click", toggleMobileMenu);
 }
+
+/* Change Language */
+const langMenu = document.querySelector("#lang-menu");
+const selectedLang = document.querySelector("#selected-lang");
+const langList = document.querySelector("#lang-list");
+const lang = document.querySelectorAll(".lang");
+
+let atualFlag = undefined;
+
+const handleClickLang = (event) => {
+  const lang = event.target.textContent.trim();
+  const flag = event.target.classList[1];
+  selectedLang.innerText = lang;
+  selectedLang.classList.toggle(atualFlag);
+  selectedLang.classList.toggle(flag);
+};
+
+const changeLang = (event) => {
+  lang.forEach((langItem) => {
+    langItem.addEventListener("click", handleClickLang);
+  });
+};
+
+const toggleLangList = (event) => {
+  atualFlag = selectedLang.classList[1];
+  langList.classList.toggle("show");
+  changeLang();
+};
+
+langMenu.addEventListener("click", toggleLangList);
