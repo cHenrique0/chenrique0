@@ -488,6 +488,14 @@ img {
     line-height: 1.5rem;
   }
 
+  .about-social h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-social p {
+    font-size: 1.2rem;
+  }
+
   .section-stop {
     scroll-margin-top: 3.5rem;
   }
@@ -590,6 +598,14 @@ img {
   .about-text p {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .about-social h2 {
+    font-size: 2rem;
+  }
+
+  .about-social p {
+    font-size: 1.5rem;
   }
 
   .section-stop {
