@@ -92,7 +92,7 @@ img {
   margin: 1rem auto;
   border-top: 1px solid #FFF;
   position: relative;
-  top: 40%;
+  top: 6rem;
 }
 
 .nav-mobile .nav-item {
@@ -246,11 +246,11 @@ img {
   border: 1px solid #FFF;
   border-radius: 5px;
   margin-top: 2rem;
-  cursor: pointer;
+  text-decoration: none;
 }
 
 .header-button:hover {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(11, 153, 143, 0.4);
   transition: all 0.1s ease;
 }
 
