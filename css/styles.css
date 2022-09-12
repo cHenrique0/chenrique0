@@ -258,60 +258,23 @@ img {
   transform: scale(0.95);
 }
 
-/* Projects Styles */
-.projects-container {
-  padding: 2rem 1.25rem;
-}
-
-.projects-container h1 {
-  font-size: 2rem;
-  line-height: 2rem;
-  margin-bottom: 1rem;
-}
-
-.projects-gallery {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem
-}
-
-.gallery-item {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-}
-
-.gallery-item a {
-  text-decoration: none;
-}
-
-.gallery-img {
-  height: 100%;
-  object-fit: cover;
-  transition: 0.5s ease-in-out;
-}
-
-.gallery-img:hover {
-  transform: scale(1.5);
-}
-
 /* About Styles */
 .about-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem 0;
+  padding: 2rem 0 0;
 }
 
-.about-container h1 {
-  font-size: 2rem;
-  line-height: 2rem;
-}
 
 .about-text {
   text-align: justify;
+}
+
+.about-text h1 {
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
 }
 
 .about-social {
@@ -336,6 +299,52 @@ img {
 
 .about-social .social-media a {
   padding: 0.5rem 1rem;
+}
+
+/* Projects Styles */
+.main-container {
+  padding: 0 1.25rem 2rem;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 0 0;
+}
+
+.projects-text h1 {
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.projects-gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-item {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.project-item a {
+  text-decoration: none;
+}
+
+.project-img {
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s ease-in-out;
+}
+
+.project-img:hover {
+  transform: scale(1.5);
 }
 
 .section-stop {
@@ -467,7 +476,7 @@ img {
     grid-auto-rows: 300px;
   }
 
-  .projects-container h1,
+  .projects-text h1,
   .about-text h1 {
     font-size: 3rem;
     line-height: 3rem;
@@ -488,9 +497,11 @@ img {
     line-height: 1.5rem;
   }
 
+
   .about-social h2 {
     font-size: 1.5rem;
   }
+
 
   .about-social p {
     font-size: 1.2rem;
@@ -566,20 +577,21 @@ img {
     background-image: url("../img/header_background-desktop.png");
   }
 
-  .projects-container,
-  .about-container {
+  .main-container,
+  .about-container,
+  .projects-container {
     max-width: 1200px;
-    margin: 2rem auto 0 auto;
+    margin: 2rem auto 2rem auto;
   }
 
-  .projects-gallery {
+  .project-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
     grid-auto-rows: 300px;
   }
 
-  .projects-container h1,
+  .projects-text h1,
   .about-text h1 {
     font-size: 4rem;
     line-height: 4rem;

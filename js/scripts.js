@@ -24,7 +24,7 @@ const navLinks = document.querySelectorAll(".nav-mobile .nav-item");
 
 const animateLinks = () => {
   navLinks.forEach((link, index) => {
-    let time = (index / 7) * 0.3;
+    let time = (index / 7) * 0.8;
     link.style.animation
       ? (link.style.animation = "")
       : (link.style.animation = `navLinksFade 0.5s ease forwards ${time}s`);
