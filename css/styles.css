@@ -92,7 +92,7 @@ img {
   margin: 1rem auto;
   border-top: 1px solid #FFF;
   position: relative;
-  top: 4rem;
+  top: 3rem;
 }
 
 .nav-mobile .nav-item {
@@ -158,12 +158,18 @@ img {
 }
 
 /* Change Language Styles */
+
+.lang-menu {
+  align-self: center;
+}
+
 .selected-lang {
-  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 0.5rem;
   color: #FFF;
+  cursor: pointer;
 }
 
 .selected-lang::before {
@@ -191,12 +197,13 @@ img {
 }
 
 .lang-list {
+  width: 100%;
   list-style: none;
   background-color: #23232e;
   border: 1px solid #0b998f;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
   display: none;
-  margin-top: 0.25rem;
+  margin-top: 0.5rem;
 }
 
 .lang-list .lang-item .lang {
