@@ -1,3 +1,11 @@
+/* Check screen width */
+const isMobile = () => {
+  if (window.screen.width < 670) {
+    return true;
+  }
+  return false;
+};
+
 /* Changing the navbar background if scroll down */
 
 const body = document.body;
@@ -46,17 +54,25 @@ if (mobileMenu) {
 }
 
 /* Change Language */
-const langMenu = document.querySelector("#lang-menu");
-const selectedLang = document.querySelector("#selected-lang");
-const langList = document.querySelector("#lang-list");
+let langMenu = document.querySelector("#lang-menu-desktop");
+let selectedLang = document.querySelector("#selected-lang-desktop");
+let langList = document.querySelector("#lang-list-desktop");
 const lang = document.querySelectorAll(".lang");
+
+if (isMobile()) {
+  langMenu = document.querySelector("#lang-menu");
+  selectedLang = document.querySelector("#selected-lang");
+  langList = document.querySelector("#lang-list");
+}
 
 let atualFlag = undefined;
 
 const handleClickLang = (event) => {
   const lang = event.target.textContent.trim();
   const flag = event.target.classList[1];
-  selectedLang.innerText = lang;
+  if (isMobile()) {
+    selectedLang.innerText = lang;
+  }
   selectedLang.classList.toggle(atualFlag);
   selectedLang.classList.toggle(flag);
 };
