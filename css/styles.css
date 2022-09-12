@@ -437,12 +437,9 @@ img {
 
 @media (min-width: 920px) {
 
-  html,
   body {
-    overflow-x: scroll;
-  }
-
-  body {
+    overflow-x: hidden;
+    overflow-y: hidden;
     position: initial;
   }
 
@@ -458,6 +455,7 @@ img {
 
   .nav-top {
     width: 100%;
+    position: sticky;
   }
 
   .nav-mobile {
