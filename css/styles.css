@@ -341,6 +341,12 @@ img {
 /* Media Queries for Large Screens */
 @media (min-width: 670px) {
 
+  body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: initial;
+  }
+
   .mobile-menu {
     display: none;
   }
