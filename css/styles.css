@@ -191,7 +191,7 @@ img {
 }
 
 /* Header Styles */
-.hero-box {
+.header-box {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -199,14 +199,14 @@ img {
   align-items: center;
 }
 
-.hero-image {
+.header-image {
   background-image: url("../img/header_background-mobile.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.hero-image::after {
+.header-image::after {
   content: "";
   background-color: rgba(0, 0, 0, 0.4);
   height: 100vh;
@@ -214,14 +214,14 @@ img {
   position: absolute;
 }
 
-.hero-text-box {
+.header-text-box {
   align-self: center;
   text-align: center;
   padding: 1rem;
   z-index: 10;
 }
 
-.hero-heading {
+.header-title {
   font-size: 2rem;
   line-height: 2rem;
   letter-spacing: 0.05rem;
@@ -230,13 +230,13 @@ img {
   color: #FFF;
 }
 
-.hero-text {
+.header-subtitle {
   font-size: 1rem;
   margin-top: 1rem;
   color: #FFF;
 }
 
-.hero-button {
+.header-button {
   display: inline-block;
   padding: 0.75rem 1rem;
   background: none;
@@ -249,12 +249,12 @@ img {
   cursor: pointer;
 }
 
-.hero-button:hover {
+.header-button:hover {
   background-color: rgba(0, 0, 0, 0.4);
   transition: all 0.1s ease;
 }
 
-.hero-button:active {
+.header-button:active {
   transform: scale(0.95);
 }
 
@@ -451,21 +451,21 @@ img {
     /* transform: scale(1.1); */
   }
 
-  .hero-image {
+  .header-image {
     background-image: url("../img/header_background-desktop.png");
   }
 
-  .hero-heading {
+  .header-title {
     font-size: 4rem;
     line-height: 4rem;
   }
 
-  .hero-text {
+  .header-subtitle {
     font-size: 2rem;
     line-height: 2rem;
   }
 
-  .hero-text-box {
+  .header-text-box {
     padding: 2rem;
   }
 
@@ -568,12 +568,12 @@ img {
     /* transform: scale(1.1); */
   }
 
-  .hero-heading {
+  .header-title {
     font-size: 6rem;
     line-height: 6rem;
   }
 
-  .hero-image {
+  .header-image {
     background-image: url("../img/header_background-desktop.png");
   }
 
