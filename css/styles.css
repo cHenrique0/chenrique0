@@ -537,6 +537,7 @@ img {
   }
 
   .lang-list {
+    width: initial;
     position: absolute;
     top: 2rem;
     right: 0;
@@ -664,6 +665,7 @@ img {
   }
 
   .lang-list {
+    width: initial;
     position: absolute;
     top: 2rem;
     right: 0;
