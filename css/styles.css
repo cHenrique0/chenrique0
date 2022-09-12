@@ -174,13 +174,14 @@ img {
 /* Top Navbar Styles */
 .nav-top {
   position: fixed;
+  width: 100%;
   top: 0;
 }
 
 /* Modern browsers */
 @supports (position: sticky) {
   .nav-top {
-    position: sticky;
+    /* position: sticky; */
     /* For Safari */
     position: -webkit-sticky;
   }
@@ -461,7 +462,6 @@ img {
 
   .nav-top {
     width: 100%;
-    position: sticky;
   }
 
   .nav-mobile {
