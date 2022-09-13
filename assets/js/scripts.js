@@ -65,26 +65,35 @@ if (isMobile()) {
   langList = document.querySelector("#lang-list");
 }
 
-let atualFlag = undefined;
+let currentLang = undefined;
 
+/* Handle click for the changeLang function */
 const handleClickLang = (event) => {
-  const lang = event.target.textContent.trim();
-  const flag = event.target.classList[1];
+  const lang = event.target.id;
+  /* Checking if is a mobile device to change the text for the selected language */
   if (isMobile()) {
     selectedLang.innerText = lang;
   }
-  selectedLang.classList.toggle(atualFlag);
-  selectedLang.classList.toggle(flag);
+  /* Changing the class to show the correct flag */
+  selectedLang.classList.toggle(currentLang);
+  selectedLang.classList.toggle(lang);
+  /* Change the hash value of the page and reload it */
+  location.hash = lang;
+  // location.reload();
 };
 
+/* Adding a click event for all languages options */
 const changeLang = (event) => {
   lang.forEach((langItem) => {
     langItem.addEventListener("click", handleClickLang);
   });
 };
 
+/* Handle click when clicking langMenu  */
 const toggleLangList = (event) => {
-  atualFlag = selectedLang.classList[1];
+  /* Checking the current language */
+  currentLang = selectedLang.classList[1];
+  /* Adding slides animation */
   if (langList.classList.contains("slide-up")) {
     langList.classList.remove("slide-up");
     langList.classList.add("slide-down");
@@ -92,7 +101,34 @@ const toggleLangList = (event) => {
     langList.classList.remove("slide-down");
     langList.classList.add("slide-up");
   }
+
   changeLang();
 };
 
+/* Adding a click event to show the language list */
 langMenu.addEventListener("click", toggleLangList);
+
+// /* Define the language reload anchors */
+// const language = {
+//   en: {
+//     welcome:
+//       "Welcome to the GeeksforGeeks Portal! You can choose any language using the buttons above!",
+//   },
+//   pt: {
+//     welcome:
+//       "Bem vindo ao Portal GeeksforGeeks! Voçê pode escolher uma linguagem usando os botões acima!",
+//   },
+// };
+
+/* Check if the has value exists in the url */
+if (window.location.hash) {
+  /* Set the languange depending on the hash value */
+  if (window.location.hash === "#pt") {
+    if (isMobile()) {
+      selectedLang.innerText = "PT";
+    }
+    selectedLang.classList.toggle("pt");
+    selectedLang.classList.toggle("en");
+    siteContent.textContent = language.pt.welcome;
+  }
+}

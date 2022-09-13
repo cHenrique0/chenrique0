@@ -89,10 +89,10 @@ img {
 .nav-mobile #social-media {
   display: flex;
   justify-content: space-between;
-  margin: 1rem auto;
+  margin: 0 auto;
   border-top: 1px solid #FFF;
-  position: relative;
-  top: 3rem;
+  /* position: relative; */
+  /* top: 3rem; */
 }
 
 .nav-mobile .nav-item {

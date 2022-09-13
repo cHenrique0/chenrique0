@@ -1,6 +1,6 @@
 <h1 align="center">Hi, be welcome! 👋</h1>
 
-<img align="right" src="Assets/John_Frink_The_Simpsons.gif" width=400 height=300>
+<img align="right" src="./assets/John_Frink_The_Simpsons.gif" width=400 height=300>
 
 I'm _**Claudio Henrique**_, a beginner web developer! 🤝 <br>
 Lover of (Industrial and Home) Automation and Embedded Systems.
