@@ -83,16 +83,20 @@ img {
 }
 
 .nav-mobile #nav-links {
-  margin: 1rem auto;
+  margin: 0 auto;
 }
 
 .nav-mobile #social-media {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
+  align-self: center;
   border-top: 1px solid #FFF;
-  /* position: relative; */
-  /* top: 3rem; */
+  position: fixed;
+  bottom: 0;
+}
+
+.nav-mobile #lang-menu {
+  margin: 2rem auto;
 }
 
 .nav-mobile .nav-item {
@@ -158,11 +162,6 @@ img {
 }
 
 /* Change Language Styles */
-
-.lang-menu {
-  align-self: center;
-}
-
 .selected-lang {
   display: flex;
   align-items: center;
