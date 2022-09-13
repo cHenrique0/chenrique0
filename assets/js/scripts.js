@@ -78,7 +78,7 @@ const handleClickLang = (event) => {
   selectedLang.classList.toggle(currentLang);
   selectedLang.classList.toggle(lang);
   /* Change the hash value of the page and reload it */
-  location.hash = lang;
+  // location.hash = lang;
   // location.reload();
 };
 
@@ -121,14 +121,14 @@ langMenu.addEventListener("click", toggleLangList);
 // };
 
 /* Check if the has value exists in the url */
-if (window.location.hash) {
-  /* Set the languange depending on the hash value */
-  if (window.location.hash === "#pt") {
-    if (isMobile()) {
-      selectedLang.innerText = "PT";
-    }
-    selectedLang.classList.toggle("pt");
-    selectedLang.classList.toggle("en");
-    siteContent.textContent = language.pt.welcome;
-  }
-}
+// if (window.location.hash) {
+//   /* Set the languange depending on the hash value */
+//   if (window.location.hash === "#pt") {
+//     if (isMobile()) {
+//       selectedLang.innerText = "PT";
+//     }
+//     selectedLang.classList.toggle("pt");
+//     selectedLang.classList.toggle("en");
+//     siteContent.textContent = language.pt.welcome;
+//   }
+// }
