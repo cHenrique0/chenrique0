@@ -198,11 +198,13 @@ img {
 
 .lang-list {
   width: 100%;
+  visibility: hidden;
+  height: 0;
+  opacity: 0;
   list-style: none;
   background-color: #23232e;
-  border: 1px solid #0b998f;
+  border: 1px solid #47475e;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
-  display: none;
   margin-top: 0.5rem;
 }
 
@@ -233,11 +235,6 @@ img {
   background-image: url("../img/br-round.png");
 }
 
-.show {
-  display: flex;
-  flex-direction: column;
-}
-
 /* Menu item animation */
 @keyframes navLinksFade {
   from {
@@ -252,6 +249,47 @@ img {
     transform: translateX(0);
     -moz-transform: translateX(0);
     -webkit-transform: translateX(0);
+  }
+}
+
+.slide-up {
+  animation: slideUp 0.2 ease both;
+  -moz-animation: slideUp 0.2s ease both;
+  -webkit-animation: slideUp 0.2s ease both;
+}
+
+.slide-down {
+  animation: slideDown 0.2s ease both;
+  -moz-animation: slideDown 0.2s ease both;
+  -webkit-animation: slideDown 0.2s ease both;
+}
+
+/* Select Language Animations */
+@keyframes slideUp {
+  from {
+    visibility: visible;
+    height: 6.25rem;
+    opacity: 1;
+  }
+
+  to {
+    visibility: hidden;
+    height: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    visibility: hidden;
+    height: 0;
+    opacity: 0;
+  }
+
+  to {
+    visibility: visible;
+    height: 6.25rem;
+    opacity: 1;
   }
 }
 

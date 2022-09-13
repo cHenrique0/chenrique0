@@ -85,7 +85,13 @@ const changeLang = (event) => {
 
 const toggleLangList = (event) => {
   atualFlag = selectedLang.classList[1];
-  langList.classList.toggle("show");
+  if (langList.classList.contains("slide-up")) {
+    langList.classList.remove("slide-up");
+    langList.classList.add("slide-down");
+  } else {
+    langList.classList.remove("slide-down");
+    langList.classList.add("slide-up");
+  }
   changeLang();
 };
 
