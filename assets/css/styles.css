@@ -252,6 +252,7 @@ img {
   }
 }
 
+/* Select Language Animations */
 .slide-up {
   animation: slideUp 0.2 ease both;
   -moz-animation: slideUp 0.2s ease both;
@@ -264,11 +265,10 @@ img {
   -webkit-animation: slideDown 0.2s ease both;
 }
 
-/* Select Language Animations */
 @keyframes slideUp {
   from {
     visibility: visible;
-    height: 6.25rem;
+    height: 3rem;
     opacity: 1;
   }
 
@@ -288,7 +288,7 @@ img {
 
   to {
     visibility: visible;
-    height: 6.25rem;
+    height: 3rem;
     opacity: 1;
   }
 }
