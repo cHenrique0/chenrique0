@@ -365,14 +365,12 @@ img {
   border-radius: 5px;
   margin-top: 2rem;
   text-decoration: none;
+  /* transition: all 0.1s ease; */
+  transition: background-color 0.5s ease;
 }
 
 .header-button:hover {
-  background-color: rgba(11, 153, 143, 0.4);
-  transition: all 0.1s ease;
-}
-
-.header-button:active {
+  background-color: rgba(0, 0, 0, 1);
   transform: scale(0.95);
 }
 
