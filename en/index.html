@@ -72,26 +72,6 @@
             </li>
           </ul>
         </li>
-        <div id="social-media">
-          <li class="nav-item social-nav-item">
-            <a
-              href="https://github.com/chenrique0"
-              target="_blank"
-              aria-label="Link to Github"
-            >
-              <i class="bi bi-github" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li class="nav-item social-nav-item">
-            <a
-              href="https://linkedin.com/in/claudio-henrique-20"
-              target="_blank"
-              aria-label="Link to Linkedin"
-            >
-              <i class="bi bi-linkedin" aria-hidden="true"></i>
-            </a>
-          </li>
-        </div>
       </ul>
       <ul class="nav-desktop">
         <li class="nav-item">
@@ -129,7 +109,7 @@
       <section class="header-text-box">
         <h1 class="header-title">Title</h1>
         <p class="header-subtitle">subtitle</p>
-        <p>
+        <div class="header-button-box">
           <a
             href="https://docs.google.com/uc?export=download&id=FILE-ID"
             class="header-button"
@@ -137,7 +117,27 @@
           >
             Download Resume
           </a>
-        </p>
+          <div class="social-buttons">
+            <a
+              href="https://github.com/chenrique0"
+              target="_blank"
+              aria-label="Link to Github"
+            >
+              <div
+                id="github-btn"
+                class="social-icon github"
+                aria-hidden="true"
+              ></div>
+            </a>
+            <a
+              id="linkedin-btn"
+              class="social-icon linkedin"
+              href="https://linkedin.com/in/claudio-henrique-20"
+              target="_blank"
+              aria-label="Link to Linkedin"
+            ></a>
+          </div>
+        </div>
       </section>
     </header>
     <!-- End Header -->
@@ -262,14 +262,19 @@
     <!-- Begin Contacts -->
     <section id="contacts" class="contact-container section-stop">
       <section class="contact-text">
-        <h1>You can find me on</h1>
-        <p>
-          <a href="mailto:claudio.alexandre@discente.ufma.br">
-            <i class="bi bi-envelope-fill"></i>
-            claudio.alexandre@discente.ufma.br
-          </a>
-        </p>
+        <h1>Contacts</h1>
       </section>
+      <h2>Email me</h2>
+      <section class="contact-email">
+        <a id="email" href="mailto:claudio.alexandre@discente.ufma.br">
+          <div class="social-icon email"></div>
+        </a>
+        <div>
+          <p>claudio.alexandre@discente.ufma.br</p>
+          <p>claudio_henrique20@hotmail.com</p>
+        </div>
+      </section>
+      <h2>My social media</h2>
       <section class="contact-social">
         <a
           href="https://github.com/chenrique0"
@@ -298,13 +303,6 @@
           aria-label="Link to Instagram"
         >
           <div class="social-icon instagram" aria-hidden="true"></div>
-        </a>
-        <a
-          href="https://facebook.com/c.henrique20"
-          target="_blank"
-          aria-label="Link to Facebook"
-        >
-          <div class="social-icon facebook" aria-hidden="true"></div>
         </a>
       </section>
     </section>

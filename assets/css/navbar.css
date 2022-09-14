@@ -109,15 +109,6 @@
   margin: 1rem auto;
 }
 
-.nav-mobile #social-media {
-  display: flex;
-  justify-content: space-between;
-  align-self: center;
-  border-top: 1px solid #FFF;
-  position: fixed;
-  bottom: 0;
-}
-
 .nav-desktop {
   display: none;
 }

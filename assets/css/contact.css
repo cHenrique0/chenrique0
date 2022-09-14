@@ -4,12 +4,13 @@
   flex-direction: column;
   justify-content: center;
   padding: 2rem 1.25rem;
-  background-color: #0b998f;
+  background-color: #00565a;
   color: #FFF;
 }
 
 .contact-container a {
   text-decoration: none;
+  color: #FFF;
 }
 
 .contact-text h1 {
@@ -18,14 +19,21 @@
   margin-bottom: 1rem;
 }
 
+.contact-email {
+  display: flex;
+  gap: 2rem;
+  margin: 1rem 0;
+}
+
+.contact-email #email {
+  display: flex;
+  align-items: center;
+}
+
 .contact-social {
   display: flex;
   justify-content: space-between;
-  margin-top: 2rem;
-}
-
-.contact-social a {
-  text-decoration: none;
+  margin: 1rem 0;
 }
 
 .social-icon {
@@ -36,12 +44,44 @@
   background-repeat: no-repeat;
 }
 
+.email {
+  background-image: url("../img/icons/32/email-white.png");
+}
+
+.contact-social .social-icon.email:hover {
+  background-image: url("../img/icons/32/email.png");
+}
+
 .github {
   background-image: url("../img/icons/32/github-white.png");
 }
 
-.github:hover {
+.contact-social .social-icon.github:hover {
   background-image: url("../img/icons/32/github.png");
+}
+
+.linkedin {
+  background-image: url("../img/icons/32/linkedin-white.png");
+}
+
+.contact-social .social-icon.linkedin:hover {
+  background-image: url("../img/icons/32/linkedin.png");
+}
+
+.twitter {
+  background-image: url("../img/icons/32/twitter-white.png");
+}
+
+.contact-social .social-icon.twitter:hover {
+  background-image: url("../img/icons/32/twitter.png");
+}
+
+.instagram {
+  background-image: url("../img/icons/32/instagram-white.png");
+}
+
+.contact-social .social-icon.instagram:hover {
+  background-image: url("../img/icons/32/instagram.png");
 }
 
 /* Media Queries for Large Screens */
@@ -62,7 +102,7 @@
 
   .contact-container {
     margin: 0 auto;
-    padding: 5rem 5rem;
+    padding: 5rem 10rem;
   }
 
   .contact-text h1 {
@@ -70,9 +110,19 @@
     line-height: 4rem;
   }
 
+  .contact-container h2 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
   .contact-container p {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .contact-email,
+  .contact-social {
+    margin: 2.5rem 0;
   }
 
   .social-icon {
@@ -80,11 +130,43 @@
     height: 4rem;
   }
 
+  .email {
+    background-image: url("../img/icons/64/email-white.png");
+  }
+
+  .contact-social .social-icon.email:hover {
+    background-image: url("../img/icons/64/email.png");
+  }
+
   .github {
     background-image: url("../img/icons/64/github-white.png");
   }
 
-  .github:hover {
+  .contact-social .social-icon.github:hover {
     background-image: url("../img/icons/64/github.png");
+  }
+
+  .linkedin {
+    background-image: url("../img/icons/64/linkedin-white.png");
+  }
+
+  .contact-social .social-icon.linkedin:hover {
+    background-image: url("../img/icons/64/linkedin.png");
+  }
+
+  .twitter {
+    background-image: url("../img/icons/64/twitter-white.png");
+  }
+
+  .contact-social .social-icon.twitter:hover {
+    background-image: url("../img/icons/64/twitter.png");
+  }
+
+  .instagram {
+    background-image: url("../img/icons/64/instagram-white.png");
+  }
+
+  .contact-social .social-icon.instagram:hover {
+    background-image: url("../img/icons/64/instagram.png");
   }
 }

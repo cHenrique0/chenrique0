@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 2rem 1.25rem;
-  background-color: #0b998f;
+  background-color: #00565a;
   color: #FFF;
 }
 
@@ -21,7 +21,7 @@
   .skills-container {
     /* max-width: 1200px; */
     margin: 0 auto;
-    padding: 5rem 5rem;
+    padding: 5rem 10rem;
   }
 
   .skills-container h1 {
