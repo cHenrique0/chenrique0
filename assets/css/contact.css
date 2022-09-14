@@ -25,7 +25,23 @@
 }
 
 .contact-social a {
-  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.social-icon {
+  width: 2rem;
+  height: 2rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.github {
+  background-image: url("../img/icons/32/github-white.png");
+}
+
+.github:hover {
+  background-image: url("../img/icons/32/github.png");
 }
 
 /* Media Queries for Large Screens */
@@ -57,5 +73,18 @@
   .contact-container p {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .social-icon {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .github {
+    background-image: url("../img/icons/64/github-white.png");
+  }
+
+  .github:hover {
+    background-image: url("../img/icons/64/github.png");
   }
 }
