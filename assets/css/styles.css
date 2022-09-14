@@ -50,6 +50,25 @@ img {
   scroll-margin-top: 3.75rem;
 }
 
+.to-up-btn {
+  width: 3rem;
+  height: 3rem;
+  background-image: url("../img/icons/64/up-arrow.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 1);
+  border: 1px solid #47475e;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  border-radius: 32px;
+  text-decoration: none;
+  visibility: hidden;
+}
+
 /* Media Queries for Large Screens */
 @media (min-width: 670px) {
 

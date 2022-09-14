@@ -7,23 +7,27 @@ const isMobile = () => {
 };
 
 /* Changing the navbar background if scroll down */
-
 const body = document.body;
 const html = document.documentElement;
 const topNavBar = document.querySelector("#nav-top");
+const toUpBtn = document.querySelector("#to-up-btn");
 
 const scrollFunction = () => {
   if (body.scrollTop > 50 || html.scrollTop > 50) {
-    topNavBar.style.backgroundColor = "#1d1e1f";
-    topNavBar.style.boxShadow = "-0.1rem 0.1rem 0.5rem 0.1rem #000";
+    toUpBtn.style.visibility = "visible";
+    topNavBar.style.backgroundColor = "#23232e";
+    topNavBar.style.boxShadow = "0 1px 10px rgba(0, 0, 0, 1)";
+    topNavBar.style.borderBottom = "1px solid #47475e";
     return;
   }
   topNavBar.style.background = "none";
   topNavBar.style.boxShadow = "none";
+  topNavBar.style.borderBottom = "none";
+  toUpBtn.style.visibility = "hidden";
   return;
 };
 
-// window.onscroll = () => scrollFunction();
+window.onscroll = () => scrollFunction();
 
 /* Open Navbar menu */
 const mobileMenu = document.querySelector(".mobile-menu");
@@ -44,9 +48,19 @@ const animateLinks = () => {
 };
 
 const toggleMobileMenu = (event) => {
+  animateLinks();
   navList.classList.toggle("active");
   mobileMenu.classList.toggle("active");
-  animateLinks();
+
+  if (mobileMenu.classList.contains("active")) {
+    topNavBar.style.backgroundColor = "#23232e";
+    topNavBar.style.boxShadow = "0 1px 10px rgba(0, 0, 0, 1)";
+    topNavBar.style.borderBottom = "1px solid #47475e";
+  } else {
+    topNavBar.style.background = "none";
+    topNavBar.style.boxShadow = "none";
+    topNavBar.style.borderBottom = "none";
+  }
 };
 
 if (mobileMenu) {
