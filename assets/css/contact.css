@@ -3,7 +3,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem 1.25rem 0;
+  padding: 2rem 1.25rem;
+  background-color: #0b998f;
+  color: #FFF;
 }
 
 .contact-container a {

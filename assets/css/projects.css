@@ -3,7 +3,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem 1.25rem 0;
+  padding: 2rem 1.25rem;
+  background-color: #23232e;
+  color: #FFF;
 }
 
 .projects-text h1 {
