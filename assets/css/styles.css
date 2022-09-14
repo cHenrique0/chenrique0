@@ -2,6 +2,8 @@
 @import url(navbar.css);
 @import url(header.css);
 @import url(about.css);
+@import url(education.css);
+@import url(skills.css);
 @import url(projects.css);
 @import url(contact.css);
 @import url(footer.css);
@@ -44,10 +46,6 @@ img {
   display: block;
 }
 
-.main-container {
-  padding: 0 1.25rem 2rem;
-}
-
 .section-stop {
   scroll-margin-top: 3.75rem;
 }
@@ -76,7 +74,7 @@ img {
 
   .main-container {
     max-width: 1200px;
-    margin: 2rem auto 2rem auto;
+    margin: 2rem auto;
   }
 
   .section-stop {

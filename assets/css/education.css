@@ -1,0 +1,22 @@
+/* Education Styles */
+.education-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 1.25rem 0;
+}
+
+.education-text h1 {
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 670px) {}
+
+@media (min-width: 920px) {
+  .education-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+  }
+}
