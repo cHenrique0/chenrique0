@@ -18,7 +18,18 @@
 
 @media (min-width: 920px) {
   .education-container {
-    max-width: 1200px;
-    margin: 2rem auto;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 5rem 5rem;
+  }
+
+  .education-container h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .education-container p {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }

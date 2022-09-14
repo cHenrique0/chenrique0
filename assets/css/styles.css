@@ -55,7 +55,6 @@ img {
 
   body {
     overflow-x: hidden;
-    overflow-y: hidden;
     position: initial;
   }
 
@@ -68,16 +67,10 @@ img {
 
   body {
     overflow-x: hidden;
-    overflow-y: hidden;
     position: initial;
   }
 
-  .main-container {
-    max-width: 1200px;
-    margin: 2rem auto;
-  }
-
   .section-stop {
-    scroll-margin-top: 5.5rem;
+    scroll-margin-top: 3.5rem;
   }
 }
