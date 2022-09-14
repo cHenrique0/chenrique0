@@ -1,0 +1,46 @@
+/* About Styles */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 0 0;
+  text-align: justify;
+}
+
+.about-container h1 {
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Media Queries for Large Screens */
+@media (min-width: 670px) {
+
+  .about-container h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .about-container p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (min-width: 920px) {
+
+  .about-container {
+    max-width: 1200px;
+    margin: 2rem auto 2rem auto;
+  }
+
+  .about-container h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .about-container p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}

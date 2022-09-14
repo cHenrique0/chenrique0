@@ -1,0 +1,54 @@
+/* Contacts Styles */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 0 0;
+}
+
+.contact-container a {
+  text-decoration: none;
+}
+
+.contact-text h1 {
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-social {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.contact-social a {
+  padding: 0.5rem 1rem;
+}
+
+/* Media Queries for Large Screens */
+@media (min-width: 670px) {
+
+  .contact-text h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .contact-container p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (min-width: 920px) {
+
+  .contact-text h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .contact-container p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}

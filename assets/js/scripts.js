@@ -77,9 +77,6 @@ const handleClickLang = (event) => {
   /* Changing the class to show the correct flag */
   selectedLang.classList.toggle(currentLang);
   selectedLang.classList.toggle(lang);
-  /* Change the hash value of the page and reload it */
-  // location.hash = lang;
-  // location.reload();
 };
 
 /* Adding a click event for all languages options */
@@ -107,28 +104,3 @@ const toggleLangList = (event) => {
 
 /* Adding a click event to show the language list */
 langMenu.addEventListener("click", toggleLangList);
-
-// /* Define the language reload anchors */
-// const language = {
-//   en: {
-//     welcome:
-//       "Welcome to the GeeksforGeeks Portal! You can choose any language using the buttons above!",
-//   },
-//   pt: {
-//     welcome:
-//       "Bem vindo ao Portal GeeksforGeeks! Voçê pode escolher uma linguagem usando os botões acima!",
-//   },
-// };
-
-/* Check if the has value exists in the url */
-// if (window.location.hash) {
-//   /* Set the languange depending on the hash value */
-//   if (window.location.hash === "#pt") {
-//     if (isMobile()) {
-//       selectedLang.innerText = "PT";
-//     }
-//     selectedLang.classList.toggle("pt");
-//     selectedLang.classList.toggle("en");
-//     siteContent.textContent = language.pt.welcome;
-//   }
-// }
