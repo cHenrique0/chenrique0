@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .header-image {
@@ -83,6 +84,41 @@
 .header-button:hover {
   background-color: rgba(0, 0, 0, 1);
   transform: scale(0.95);
+}
+
+.scroll-down-icon {
+  width: 3rem;
+  height: 3rem;
+  background-image: url("../img/icons/64/down-arrow.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 2rem;
+  z-index: 20;
+  cursor: pointer;
+}
+
+/* Scroll Down Icon Animation */
+.scroll-down {
+  animation: scrollDown 1s infinite alternate;
+  -moz-animation: scrollDown 1s infinite alternate;
+  -webkit-animation: scrollDown 1s infinite alternate;
+}
+
+@keyframes scrollDown {
+  from {
+    transform: translateY(0);
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(1rem);
+    -moz-transform: translateY(1rem);
+    -webkit-transform: translateY(1rem);
+  }
 }
 
 /* Media Queries for Large Screens */
