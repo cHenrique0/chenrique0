@@ -37,51 +37,51 @@
 }
 
 .social-icon {
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .email {
-  background-image: url("../img/icons/32/email-white.png");
+  background-image: url("../img/icons/64/email-white.png");
 }
 
 .contact-social .social-icon.email:hover {
-  background-image: url("../img/icons/32/email.png");
+  background-image: url("../img/icons/64/email.png");
 }
 
 .github {
-  background-image: url("../img/icons/32/github-white.png");
+  background-image: url("../img/icons/64/github-white.png");
 }
 
 .contact-social .social-icon.github:hover {
-  background-image: url("../img/icons/32/github.png");
+  background-image: url("../img/icons/64/github.png");
 }
 
 .linkedin {
-  background-image: url("../img/icons/32/linkedin-white.png");
+  background-image: url("../img/icons/64/linkedin-white.png");
 }
 
 .contact-social .social-icon.linkedin:hover {
-  background-image: url("../img/icons/32/linkedin.png");
+  background-image: url("../img/icons/64/linkedin.png");
 }
 
 .twitter {
-  background-image: url("../img/icons/32/twitter-white.png");
+  background-image: url("../img/icons/64/twitter-white.png");
 }
 
 .contact-social .social-icon.twitter:hover {
-  background-image: url("../img/icons/32/twitter.png");
+  background-image: url("../img/icons/64/twitter.png");
 }
 
 .instagram {
-  background-image: url("../img/icons/32/instagram-white.png");
+  background-image: url("../img/icons/64/instagram-white.png");
 }
 
 .contact-social .social-icon.instagram:hover {
-  background-image: url("../img/icons/32/instagram.png");
+  background-image: url("../img/icons/64/instagram.png");
 }
 
 /* Media Queries for Large Screens */
