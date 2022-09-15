@@ -33,7 +33,7 @@
     <!-- Begin Top Navbar -->
     <nav id="nav-top" class="nav-bar nav-top">
       <h1 class="logo">
-        <a href="/">
+        <a href="#">
           <i class="bi bi-terminal"></i>
           C.H.
         </a>
@@ -46,7 +46,7 @@
       <ul class="nav-mobile">
         <div id="nav-links">
           <li class="nav-item">
-            <a href="#home">Inicio</a>
+            <a href="#home">Início</a>
           </li>
           <li class="nav-item">
             <a href="#about">Sobre mim</a>
@@ -60,39 +60,22 @@
           <li class="nav-item">
             <a href="#projects">Projetos</a>
           </li>
+          <li class="nav-item">
+            <a href="#contacts">Contatos</a>
+          </li>
         </div>
-        <div id="lang-menu" class="nav-item lang-menu">
+        <li id="lang-menu" class="nav-item lang-menu">
           <div id="selected-lang" class="selected-lang pt">PT</div>
           <ul id="lang-list" class="lang-list slide-up">
             <li class="lang-item">
               <a href="../en/" id="en" class="lang en">EN</a>
             </li>
           </ul>
-        </div>
-        <div id="social-media">
-          <li class="nav-item social-nav-item">
-            <a
-              href="https://github.com/chenrique0"
-              target="_blank"
-              aria-label="Link to Github"
-            >
-              <i class="bi bi-github" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li class="nav-item social-nav-item">
-            <a
-              href="https://linkedin.com/in/claudio-henrique-20"
-              target="_blank"
-              aria-label="Link to Linkedin"
-            >
-              <i class="bi bi-linkedin" aria-hidden="true"></i>
-            </a>
-          </li>
-        </div>
+        </li>
       </ul>
       <ul class="nav-desktop">
         <li class="nav-item">
-          <a href="#home">Inicio</a>
+          <a href="#home">Início</a>
         </li>
         <li class="nav-item">
           <a href="#about">Sobre mim</a>
@@ -105,6 +88,9 @@
         </li>
         <li class="nav-item">
           <a href="#projects">Projetos</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contacts">Contatos</a>
         </li>
         <li id="lang-menu-desktop" class="nav-item lang-menu">
           <div id="selected-lang-desktop" class="selected-lang pt"></div>
@@ -122,202 +108,223 @@
     <header class="header-box header-image">
       <section class="header-text-box">
         <h1 class="header-title">Titulo</h1>
-        <p class="header-subtitle">sub-titulo</p>
-        <p>
+        <p class="header-subtitle">subtitulo</p>
+        <div class="header-button-box">
           <a
-            href="https://docs.google.com/uc?export=download&id=ID-DO-ARQUIVO"
+            href="https://docs.google.com/uc?export=download&id=FILE-ID"
             class="header-button"
             target="_blank"
           >
-            Baixar Currículo
+            Baixar CV
           </a>
-        </p>
-      </section>
-    </header>
-    <!-- End Header -->
-
-    <main class="main-container">
-      <!-- Begin About -->
-      <section id="about" class="about-container section-stop">
-        <section class="about-text">
-          <h1>Sobre mim</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            distinctio perferendis soluta consectetur inventore quisquam enim
-            tempora, ea architecto dolores, vitae voluptas voluptates
-            reprehenderit veniam sint ullam possimus, illo qui!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic
-            aliquam vero dolores illo eveniet. Quidem quis beatae non
-            necessitatibus accusantium, corrupti minima. Deleniti saepe
-            doloribus nesciunt ex atque natus labore?
-          </p>
-        </section>
-        <section id="contacts" class="about-social">
-          <h2>Você pode me encontrar aqui</h2>
-          <p id="email">
-            <a href="mailto:claudio.alexandre@discente.ufma.br">
-              <i class="bi bi-envelope-fill"></i>
-              claudio.alexandre@discente.ufma.br
-            </a>
-          </p>
-          <div class="social-media">
+          <div class="social-buttons">
             <a
               href="https://github.com/chenrique0"
               target="_blank"
               aria-label="Link to Github"
             >
-              <i class="bi bi-github" aria-hidden="true"></i>
+              <div
+                id="github-btn"
+                class="social-icon github"
+                aria-hidden="true"
+              ></div>
             </a>
             <a
+              id="linkedin-btn"
+              class="social-icon linkedin"
               href="https://linkedin.com/in/claudio-henrique-20"
               target="_blank"
               aria-label="Link to Linkedin"
-            >
-              <i class="bi bi-linkedin" aria-hidden="true"></i>
-            </a>
-            <a
-              href="https://twitter.com/c_henrique20"
-              target="_blank"
-              aria-label="Link to Twitter"
-            >
-              <i class="bi bi-twitter" aria-hidden="true"></i>
-            </a>
-            <a
-              href="https://instagram.com/7_chenrique"
-              target="_blank"
-              aria-label="Link to Instagram"
-            >
-              <i class="bi bi-instagram" aria-hidden="true"></i>
-            </a>
-            <a
-              href="https://facebook.com/c.henrique20"
-              target="_blank"
-              aria-label="Link to Facebook"
-            >
-              <i class="bi bi-facebook" aria-hidden="true"></i>
-            </a>
+            ></a>
           </div>
-        </section>
+        </div>
       </section>
-      <!-- End About -->
+      <!-- Beging Slide down icon -->
+      <a
+        href="#about"
+        id="scroll-down-icon"
+        class="scroll-down-icon scroll-down"
+      ></a>
+      <!-- End Slide down icon -->
+    </header>
+    <!-- End Header -->
 
-      <!-- Begin Education -->
-      <section id="education" class="education-container section-stop">
-        <section class="education-text">
-          <h1>Formação</h1>
-        </section>
-        <section class="education-college"></section>
+    <!-- Begin About -->
+    <section id="about" class="about-container section-stop">
+      <h1>Sobre mim</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+        distinctio perferendis soluta consectetur inventore quisquam enim
+        tempora, ea architecto dolores, vitae voluptas voluptates reprehenderit
+        veniam sint ullam possimus, illo qui!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic aliquam
+        vero dolores illo eveniet. Quidem quis beatae non necessitatibus
+        accusantium, corrupti minima. Deleniti saepe doloribus nesciunt ex atque
+        natus labore?
+      </p>
+    </section>
+    <!-- End About -->
+
+    <!-- Begin Education -->
+    <section id="education" class="education-container section-stop">
+      <section class="education-text">
+        <h1>Formação</h1>
       </section>
-      <!-- End Education -->
+      <section class="education-college"></section>
+    </section>
+    <!-- End Education -->
 
-      <!-- Begin Skills -->
-      <section id="skills" class="skills-container section-stop">
-        <section class="skills-text">
-          <h1>Habilidades</h1>
-        </section>
-        <section class="skills-tools"></section>
+    <!-- Begin Skills -->
+    <section id="skills" class="skills-container section-stop">
+      <section class="skills-text">
+        <h1>Habilidades</h1>
       </section>
-      <!-- End Skills -->
+      <section class="skills-tools"></section>
+    </section>
+    <!-- End Skills -->
 
-      <!-- Begin Projects -->
-      <section id="projects" class="projects-container section-stop">
-        <section class="projects-text">
-          <h1>Projetos</h1>
-        </section>
-        <section class="project-gallery">
-          <div class="project-item">
-            <a
-              href="../assets/img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
-              class="glightbox"
-              data-glightbox="title: Title for image; description: .custom-desc1; descPosition: right"
-            >
-              <img
-                src="../assets/img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
-                alt="some image"
-                class="project-img"
-              />
-            </a>
-          </div>
-          <div class="glightbox-desc custom-desc1">
-            <p>Custom description 1 testing</p>
-            <a href="https://www.google.com" target="_blank">link testing</a>
-          </div>
-
-          <div class="project-item">
-            <a
-              href="../assets/img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
-              class="glightbox"
-              data-glightbox="title: Title for image; description: .custom-desc2; descPosition: right"
-            >
-              <img
-                src="../assets/img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
-                alt="some image"
-                class="project-img"
-              />
-            </a>
-          </div>
-          <div class="glightbox-desc custom-desc2">
-            <p>Custom description 2 testing</p>
-            <a href="https://www.google.com" target="_blank">link testing</a>
-          </div>
-
-          <div class="project-item">
-            <a
-              href="../assets/img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
-              class="glightbox"
-              data-glightbox="title: Title for image; description: .custom-desc3; descPosition: right"
-            >
-              <img
-                src="../assets/img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
-                alt="some image"
-                class="project-img"
-              />
-            </a>
-          </div>
-          <div class="glightbox-desc custom-desc3">
-            <p>Custom description 3 testing</p>
-            <a href="https://www.google.com" target="_blank">link testing</a>
-          </div>
-
-          <div class="project-item">
-            <a
-              href="../assets/img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
-              class="glightbox"
-              data-glightbox="title: Title for image; description: .custom-desc4; descPosition: right"
-            >
-              <img
-                src="../assets/img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
-                alt="some image"
-                class="project-img"
-              />
-            </a>
-          </div>
-          <div class="glightbox-desc custom-desc4">
-            <p>Custom description 4 testing</p>
-            <a href="https://www.google.com" target="_blank">link testing</a>
-          </div>
-        </section>
+    <!-- Begin Projects -->
+    <section id="projects" class="projects-container section-stop">
+      <section class="projects-text">
+        <h1>Projetos</h1>
       </section>
-      <!-- End Projects -->
-    </main>
+      <section class="project-gallery">
+        <div class="project-item">
+          <a
+            href="../assets/img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
+            class="glightbox"
+            data-glightbox="title: Title for image; description: .custom-desc1; descPosition: right"
+          >
+            <img
+              src="../assets/img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
+              alt="some image"
+              class="project-img"
+            />
+          </a>
+        </div>
+        <div class="glightbox-desc custom-desc1">
+          <p>Custom description 1 testing</p>
+          <a href="https://www.google.com" target="_blank">link testing</a>
+        </div>
+
+        <div class="project-item">
+          <a
+            href="../assets/img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
+            class="glightbox"
+            data-glightbox="title: Title for image; description: .custom-desc2; descPosition: right"
+          >
+            <img
+              src="../assets/img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
+              alt="some image"
+              class="project-img"
+            />
+          </a>
+        </div>
+        <div class="glightbox-desc custom-desc2">
+          <p>Custom description 2 testing</p>
+          <a href="https://www.google.com" target="_blank">link testing</a>
+        </div>
+
+        <div class="project-item">
+          <a
+            href="../assets/img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
+            class="glightbox"
+            data-glightbox="title: Title for image; description: .custom-desc3; descPosition: right"
+          >
+            <img
+              src="../assets/img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
+              alt="some image"
+              class="project-img"
+            />
+          </a>
+        </div>
+        <div class="glightbox-desc custom-desc3">
+          <p>Custom description 3 testing</p>
+          <a href="https://www.google.com" target="_blank">link testing</a>
+        </div>
+
+        <div class="project-item">
+          <a
+            href="../assets/img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
+            class="glightbox"
+            data-glightbox="title: Title for image; description: .custom-desc4; descPosition: right"
+          >
+            <img
+              src="../assets/img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
+              alt="some image"
+              class="project-img"
+            />
+          </a>
+        </div>
+        <div class="glightbox-desc custom-desc4">
+          <p>Custom description 4 testing</p>
+          <a href="https://www.google.com" target="_blank">link testing</a>
+        </div>
+      </section>
+    </section>
+    <!-- End Projects -->
+
+    <!-- Begin Contacts -->
+    <section id="contacts" class="contact-container section-stop">
+      <section class="contact-text">
+        <h1>Contatos</h1>
+      </section>
+      <h2>Envie um e-mail para</h2>
+      <section class="contact-email">
+        <a id="email" href="mailto:claudio.alexandre@discente.ufma.br">
+          <div class="social-icon email"></div>
+        </a>
+        <div>
+          <p>claudio.alexandre@discente.ufma.br</p>
+          <p>claudio_henrique20@hotmail.com</p>
+        </div>
+      </section>
+      <h2>Minhas redes sociais</h2>
+      <section class="contact-social">
+        <a
+          href="https://github.com/chenrique0"
+          target="_blank"
+          aria-label="Link to Github"
+        >
+          <div class="social-icon github" aria-hidden="true"></div>
+        </a>
+        <a
+          href="https://linkedin.com/in/claudio-henrique-20"
+          target="_blank"
+          aria-label="Link to Linkedin"
+        >
+          <div class="social-icon linkedin" aria-hidden="true"></div>
+        </a>
+        <a
+          href="https://twitter.com/c_henrique20"
+          target="_blank"
+          aria-label="Link to Twitter"
+        >
+          <div class="social-icon twitter" aria-hidden="true"></div>
+        </a>
+        <a
+          href="https://instagram.com/7_chenrique"
+          target="_blank"
+          aria-label="Link to Instagram"
+        >
+          <div class="social-icon instagram" aria-hidden="true"></div>
+        </a>
+      </section>
+    </section>
+    <!-- End Contacts -->
+
+    <!-- Beging Go to up Button -->
+    <a href="#" id="to-up-btn" class="to-up-btn"></a>
+    <!-- End Go to up Button -->
 
     <!-- Begin Footer -->
     <footer>
       <nav id="nav-bar-bottom" class="nav-bottom">
-        <div class="nav-bottom-text">
-          <h1 class="logo">
-            <a href="#">
-              <i class="bi bi-terminal"></i>
-              C.H.
-            </a>
-          </h1>
-          <p>Copyrights &copy; 2022</p>
-        </div>
         <ul class="nav-bottom-menu">
           <li class="nav-bottom-item">
-            <a href="#home">Inicio</a>
+            <a href="#home">Início</a>
           </li>
           <li class="nav-bottom-item">
             <a href="#about">Sobre mim</a>
@@ -331,7 +338,20 @@
           <li class="nav-bottom-item">
             <a href="#projects">Projetos</a>
           </li>
+          <li class="nav-bottom-item">
+            <a href="#contacts">Contatos</a>
+          </li>
         </ul>
+        <div class="nav-bottom-text">
+          <h1 class="logo">
+            <a href="#">
+              <i class="bi bi-terminal"></i>
+              C.H.
+            </a>
+          </h1>
+          <p>&nbsp; &copy; &nbsp; 2022</p>
+          <p>Feito por Claudio Henrique</p>
+        </div>
       </nav>
     </footer>
     <!-- End Footer -->
