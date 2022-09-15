@@ -21,7 +21,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
     />
-
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- My Custom CSS -->
     <link rel="stylesheet" href="../assets/css/styles.css" />
     <!-- My JS scripts -->
@@ -183,70 +184,70 @@
       </section>
       <h2>I have knowledge</h2>
       <section class="skills-tools">
-        <div class="skills-item">
+        <div class="skills-item" data-aos="fade-up">
           <div class="skills-icon node"></div>
           <p>Node JS</p>
         </div>
-        <div class="skills-item">
+        <div class="skills-item" data-aos="fade-up">
           <div class="skills-icon ts"></div>
           <p>Typescript</p>
         </div>
-        <div class="skills-item">
+        <div class="skills-item" data-aos="fade-up">
           <div class="skills-icon python"></div>
           <p>Python</p>
         </div>
-        <div class="skills-item">
+        <div class="skills-item" data-aos="fade-up">
           <div class="skills-icon js"></div>
           <p>Javascript</p>
         </div>
-        <div class="skills-item">
+        <div class="skills-item" data-aos="fade-up">
           <div class="skills-icon postgre"></div>
-          <p>PostgreSQL</p>
+          <p>Postgre</p>
         </div>
-        <div class="skills-item">
+        <div class="skills-item" data-aos="fade-up">
           <div class="skills-icon mysql"></div>
           <p>MySQL</p>
         </div>
-        <div class="skills-item">
+        <div class="skills-item" data-aos="fade-up">
           <div class="skills-icon html"></div>
           <p>HTML</p>
         </div>
-        <div class="skills-item">
+        <div class="skills-item" data-aos="fade-up">
           <div class="skills-icon css"></div>
           <p>CSS</p>
         </div>
-        <div class="skills-item">
+        <div class="skills-item" data-aos="fade-up">
           <div class="skills-icon git"></div>
           <p>git</p>
         </div>
-        <div class="skills-item">
+        <div class="skills-item" data-aos="fade-up">
           <div class="skills-icon git-hub"></div>
           <p>github</p>
         </div>
-        <div class="skills-item">
+        <div class="skills-item" data-aos="fade-up">
           <div class="skills-icon linux"></div>
           <p>Linux</p>
         </div>
-        <div class="skills-item">
+        <div class="skills-item" data-aos="fade-up">
           <div class="skills-icon vscode"></div>
           <p>vscode</p>
         </div>
       </section>
       <h2>I'm learning</h2>
       <section class="skills-tools">
-        <div class="skills-item">
+        <div class="skills-item" data-aos="fade-up">
           <div class="skills-icon csharp"></div>
           <p>C#</p>
         </div>
-        <div class="skills-item">
+        <div class="skills-item" data-aos="fade-up">
           <div class="skills-icon docker"></div>
           <p>Docker</p>
         </div>
-        <div class="skills-item">
+        <div class="skills-item" data-aos="fade-up">
           <div class="skills-icon react"></div>
           <p>React</p>
         </div>
-        <div class="skills-item">
+        <div class="skills-item" data-aos="fade-up">
           <div class="skills-icon mongo"></div>
           <p>Mongo DB</p>
         </div>
@@ -264,7 +265,7 @@
           <a
             href="../assets/img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
             class="glightbox"
-            data-glightbox="title: Title for image; description: .custom-desc1; descPosition: right"
+            data-glightbox="title: Title for image; description: .custom-desc1; descPosition: up"
           >
             <img
               src="../assets/img/marek-piwnicki-0RNm_d2uiC4-unsplash.jpg"
@@ -425,11 +426,14 @@
     </footer>
     <!-- End Footer -->
 
+    <!-- CDN AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- CDN GLightBox JS -->
     <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
-    <!-- JS for GLightBox -->
+    <!-- JS for GLightBox and AOS -->
     <script type="text/javascript">
       const lightbox = GLightbox({ loop: true });
+      AOS.init();
     </script>
   </body>
 </html>
