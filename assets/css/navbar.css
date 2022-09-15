@@ -4,10 +4,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
-  /* background: #23232e; */
-  /* background-color: #1d1e1f; */
-  /* border-bottom: 1px solid #47475e; */
-  /* box-shadow: 0 1px 10px rgba(0, 0, 0, 1); */
+  background: #23232e;
+  border-bottom: 1px solid #47475e;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
   height: 10vh;
   z-index: 100;
 }

@@ -6,82 +6,66 @@ const isMobile = () => {
   return false;
 };
 
-/* Changing the navbar background if scroll down */
+/* Selecting the page components */
 const body = document.body;
 const html = document.documentElement;
-const topNavBar = document.querySelector("#nav-top");
 const toUpBtn = document.querySelector("#to-up-btn");
-
-const scrollFunction = () => {
-  if (body.scrollTop > 50 || html.scrollTop > 50) {
-    toUpBtn.style.visibility = "visible";
-    topNavBar.style.backgroundColor = "#23232e";
-    topNavBar.style.boxShadow = "0 1px 10px rgba(0, 0, 0, 1)";
-    topNavBar.style.borderBottom = "1px solid #47475e";
-    if (navList.classList.contains("active")) {
-      toggleMobileMenu();
-    }
-    return;
-  }
-  topNavBar.style.background = "none";
-  topNavBar.style.boxShadow = "none";
-  topNavBar.style.borderBottom = "none";
-  toUpBtn.style.visibility = "hidden";
-  return;
-};
-
-window.onscroll = () => scrollFunction();
-
-/* Open Navbar menu */
 const mobileMenu = document.querySelector(".mobile-menu");
 const navList = document.querySelector(".nav-mobile");
 const navLinks = document.querySelectorAll(".nav-mobile .nav-item");
-
-const animateLinks = () => {
-  navLinks.forEach((link, index) => {
-    let time = (index / 7) * 0.8;
-    link.style.animation
-      ? (link.style.animation = "")
-      : (link.style.animation = `navLinksFade 0.5s ease forwards ${time}s`);
-
-    if (link.getAttribute("id") !== "lang-menu") {
-      link.addEventListener("click", toggleMobileMenu);
-    }
-  });
-};
-
-const toggleMobileMenu = (event) => {
-  animateLinks();
-  navList.classList.toggle("active");
-  mobileMenu.classList.toggle("active");
-
-  if (navList.classList.contains("active")) {
-    topNavBar.style.backgroundColor = "#23232e";
-    topNavBar.style.boxShadow = "0 1px 10px rgba(0, 0, 0, 1)";
-    topNavBar.style.borderBottom = "1px solid #47475e";
-  } else {
-    topNavBar.style.background = "none";
-    topNavBar.style.boxShadow = "none";
-    topNavBar.style.borderBottom = "none";
-  }
-};
-
-if (mobileMenu) {
-  mobileMenu.addEventListener("click", toggleMobileMenu);
-}
-
-/* Change Language */
 let langMenu = document.querySelector("#lang-menu-desktop");
 let selectedLang = document.querySelector("#selected-lang-desktop");
 let langList = document.querySelector("#lang-list-desktop");
 const lang = document.querySelectorAll(".lang");
-
 if (isMobile()) {
   langMenu = document.querySelector("#lang-menu");
   selectedLang = document.querySelector("#selected-lang");
   langList = document.querySelector("#lang-list");
 }
 
+/* Detecting page scroll down */
+const scrollFunction = () => {
+  if (body.scrollTop > 50 || html.scrollTop > 50) {
+    /* Showing the Go To Up button if scroll down */
+    toUpBtn.style.visibility = "visible";
+    /* Hiding the navbar if scroll down */
+    if (navList.classList.contains("active")) {
+      toggleMobileMenu();
+    }
+    return;
+  }
+  /* Hiding go to up button if in the header */
+  toUpBtn.style.visibility = "hidden";
+  return;
+};
+/* Assigning the window scroll function */
+window.onscroll = () => scrollFunction();
+
+/* mobile navbar animation */
+const animateLinks = () => {
+  /* Selecting all links in the navbar menu */
+  navLinks.forEach((link, index) => {
+    let time = (index / 7) * 0.8;
+    /* Setting up the animation function for each link */
+    link.style.animation
+      ? (link.style.animation = "")
+      : (link.style.animation = `navLinksFade 0.5s ease forwards ${time}s`);
+  });
+};
+
+/* Open/Close the menu */
+const toggleMobileMenu = (event) => {
+  animateLinks();
+  navList.classList.toggle("active");
+  mobileMenu.classList.toggle("active");
+};
+/* Checking if the mobile menu is displaying */
+if (mobileMenu) {
+  /* Adding a click event to it */
+  mobileMenu.addEventListener("click", toggleMobileMenu);
+}
+
+/* Changing Language */
 let currentLang = undefined;
 
 /* Handle click for the changeLang function */
