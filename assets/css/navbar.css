@@ -56,7 +56,7 @@
   width: 50vw;
   height: 90vh;
   background: #23232e;
-  /* background: #1d1e1f; */
+  border-left: 1px solid #47475e;
   z-index: 100;
   display: flex;
   flex-direction: column;
