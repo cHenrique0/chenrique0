@@ -18,6 +18,9 @@ const scrollFunction = () => {
     topNavBar.style.backgroundColor = "#23232e";
     topNavBar.style.boxShadow = "0 1px 10px rgba(0, 0, 0, 1)";
     topNavBar.style.borderBottom = "1px solid #47475e";
+    if (navList.classList.contains("active")) {
+      toggleMobileMenu();
+    }
     return;
   }
   topNavBar.style.background = "none";
@@ -52,7 +55,7 @@ const toggleMobileMenu = (event) => {
   navList.classList.toggle("active");
   mobileMenu.classList.toggle("active");
 
-  if (mobileMenu.classList.contains("active")) {
+  if (navList.classList.contains("active")) {
     topNavBar.style.backgroundColor = "#23232e";
     topNavBar.style.boxShadow = "0 1px 10px rgba(0, 0, 0, 1)";
     topNavBar.style.borderBottom = "1px solid #47475e";
