@@ -25,6 +25,8 @@ Lover of (Industrial and Home) Automation and Embedded Systems.
 
 🔸 I have knowledge:
 
+![JavaScript](https://img.shields.io/badge/-JavaScript-FCDC00?style=for-the-badge&logo=javascript&logoColor=black)&nbsp;
+![Nodejs](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)&nbsp;
 ![Python](https://img.shields.io/badge/-Python-336EA0?style=for-the-badge&logo=python&logoColor=FFE466)&nbsp;
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)&nbsp;
@@ -40,8 +42,6 @@ Lover of (Industrial and Home) Automation and Embedded Systems.
 ![C#](https://img.shields.io/badge/-C%23-68217A?style=for-the-badge&logo=csharp)&nbsp;
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)&nbsp;
 ![Docker]( 	https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)&nbsp;
-![JavaScript](https://img.shields.io/badge/-JavaScript-FCDC00?style=for-the-badge&logo=javascript&logoColor=black)&nbsp;
-![Nodejs](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)&nbsp;
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)&nbsp;
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)&nbsp;
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)&nbsp;
