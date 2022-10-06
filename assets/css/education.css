@@ -14,6 +14,43 @@
   margin-bottom: 1rem;
 }
 
+.education-college {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.education-desc p {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.education-desc ul li {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.education-desc ul li a {
+  margin-top: 1rem;
+  color: #FFF;
+}
+
+.education-desc ul li span {
+  font-size: 0.75rem;
+}
+
+.education-icon {
+  width: 4rem;
+  height: 4rem;
+  background-image: url("../img/logo_ufma.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 @media (min-width: 670px) {}
 
 @media (min-width: 920px) {
