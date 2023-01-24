@@ -3,7 +3,6 @@
 <img align="right" src="./assets/John_Frink_The_Simpsons.gif" width=400 height=300>
 
 I'm _**Claudio Henrique**_, a beginner web developer! 🤝 <br>
-Lover of (Industrial and Home) Automation and Embedded Systems.
 
 <h3>About me</h3>
 
@@ -12,7 +11,6 @@ Lover of (Industrial and Home) Automation and Embedded Systems.
 👨‍🎓: I'm a undergraduate from <a href="https://portalpadrao.ufma.br/site">_**UFMA - Universidade Federal do Maranhão**_</a> <br>
 📚: I’m currently studying <a href="http://www.ecp.ufma.br/">_**Computer Engineering**_</a>. <br>
 💬: I speak Portuguese and I know a little English and Spanish language. <br>
-🏁 2022 Goals: create new projects, find a job and complete my graduation. <br>
 🔎 You can find me on: <br>
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/claudio-henrique-20/)&nbsp;
@@ -43,7 +41,7 @@ Lover of (Industrial and Home) Automation and Embedded Systems.
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)&nbsp;
 ![Docker]( 	https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)&nbsp;
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)&nbsp;
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)&nbsp;
+<!-- ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)&nbsp; -->
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)&nbsp;
 
 
