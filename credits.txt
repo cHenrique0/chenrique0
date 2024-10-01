@@ -1,0 +1,58 @@
+Header Background:
+Photo by <a href="https://unsplash.com/@gradienta?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Gradienta</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+UK Icons:
+<a href="https://www.flaticon.com/br/icones-gratis/bandeira-do-reino-unido" title="bandeira do reino unido ícones">Bandeira do reino unido ícones criados por Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/uk-flag" title="uk flag icons">Uk flag icons created by IconsBox - Flaticon</a>
+
+BR Icons:
+<a href="https://www.flaticon.com/br/icones-gratis/brasil" title="brasil ícones">Brasil ícones criados por Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/brazil" title="brazil icons">Brazil icons created by IconsBox - Flaticon</a>
+
+GitHub icons:
+<a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a>
+
+Linkedin icons:
+<a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a>
+
+Twitter icons:
+<a href="https://www.flaticon.com/free-icons/twitter-social-badge" title="twitter social badge icons">Twitter social badge icons created by Freepik - Flaticon</a>
+
+Instagram icons:
+<a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by Hight Quality Icons - Flaticon</a>
+
+Email icons:
+<a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Uniconlabs - Flaticon</a>
+
+Up Arrow:
+<a href="https://www.flaticon.com/free-icons/up-arrow" title="up arrow icons">Up arrow icons created by dmitri13 - Flaticon</a>
+
+Down Arrow:
+<a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons">Arrow icons created by th studio - Flaticon</a>
+
+Js:
+<a href="https://www.flaticon.com/free-icons/javascript" title="javascript icons">Javascript icons created by Freepik - Flaticon</a>
+
+Node:
+<a href="https://www.flaticon.com/free-icons/node-js" title="node-js icons">Node-js icons created by Freepik - Flaticon</a>
+
+Python:
+<a href="https://www.flaticon.com/free-icons/python" title="python icons">Python icons created by Freepik - Flaticon</a>
+
+TS:
+<a href="https://www.flaticon.com/free-icons/typescript" title="typescript icons">Typescript icons created by Freepik - Flaticon</a>
+
+Postgre:
+<a href="https://www.flaticon.com/free-icons/postgre" title="postgre icons">Postgre icons created by Freepik - Flaticon</a>
+
+MySQL:
+<a href="https://www.flaticon.com/free-icons/mysql" title="mysql icons">Mysql icons created by Freepik - Flaticon</a>
+
+C#:
+<a href="https://www.flaticon.com/free-icons/c-sharp" title="c-sharp icons">C-sharp icons created by Freepik - Flaticon</a>
+
+Docker:
+<a href="https://www.flaticon.com/br/icones-gratis/docker" title="docker ícones">Docker ícones criados por Freepik - Flaticon</a>
+
+React:
+<a href="https://www.flaticon.com/free-icons/react" title="react icons">React icons created by Freepik - Flaticon</a>
