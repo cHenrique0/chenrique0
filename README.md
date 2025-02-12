@@ -7,7 +7,8 @@ I'm _**Claudio Henrique**_, a beginner web developer! 🤝 <br>
 <h3>About me</h3>
 
 🏠: I’m from Brazil. <br>
-💻: I'm beginner Web Developer! <br>
+🐞: I'm a Software Test Analyst! <br>
+👨‍💻 : And I also know how to develop software! <br>
 👨‍🎓: I'm a undergraduate from <a href="https://portalpadrao.ufma.br/site">_**UFMA - Universidade Federal do Maranhão**_</a> <br>
 📚: I’m currently studying <a href="http://www.ecp.ufma.br/">_**Computer Engineering**_</a>. <br>
 💬: I speak Portuguese and I know a little English and Spanish language. <br>
@@ -19,10 +20,12 @@ I'm _**Claudio Henrique**_, a beginner web developer! 🤝 <br>
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/7_chenrique/)&nbsp;
 
 
-<h3>Technologies and tools</h3>
+<h3>💻 Technologies and Tools 🧰</h3>
 
-🔸 I have knowledge:
+🔸 I know:
 
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)&nbsp;
+![Docker]( 	https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)&nbsp;
 ![Java](https://img.shields.io/badge/-Java-f79120?style=for-the-badge&logo=Java)&nbsp;
 ![JavaScript](https://img.shields.io/badge/-JavaScript-FFDC00?style=for-the-badge&logo=javascript&logoColor=black)&nbsp;
 ![Nodejs](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)&nbsp;
@@ -34,16 +37,6 @@ I'm _**Claudio Henrique**_, a beginner web developer! 🤝 <br>
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)&nbsp;
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)&nbsp;
 ![Ladder Logic](https://img.shields.io/badge/-Ladder_Logic-009999?style=for-the-badge&logo=ladderlogic&logoColor=white)&nbsp;
-![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)&nbsp;
-
-🔸 I'm learning:
-
-![C#](https://img.shields.io/badge/-C%23-68217A?style=for-the-badge&logo=csharp)&nbsp;
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)&nbsp;
-![Docker]( 	https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)&nbsp;
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)&nbsp;
-<!-- ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)&nbsp; -->
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)&nbsp;
 
 
 Thanks for visiting.
